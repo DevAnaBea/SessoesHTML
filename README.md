@@ -1,2 +1,0 @@
-# SessoesHTML
-Created with CodeSandbox

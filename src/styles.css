@@ -1,0 +1,49 @@
+/* GERAL */
+body {
+
+}
+/*Flex Container*/
+.container {
+  margin: 0 auto;
+  color: #fff;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+/* Flex */
+.item {
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 10px;
+  border: 3px solid white;
+  background-color: #97d5fc;
+  padding: 10px;
+}
+.cabecalho {
+  flex-basis: 800px;
+  margin-bottom: 0px;
+  padding: 10px;
+  background-color: #e4bddb;
+}
+
+.out {
+  flex-grow: 1;
+  background-color: #8be6e1;
+}
+
+.section {
+  flex-direction: column;
+  flex-basis: 300px;
+  background-color: #6ab5e4;
+}
+
+.section > article {
+  padding: 50px;
+}
+.section > header {
+  padding: 1px;
+}
+.section > footer {
+  padding: 1px;
+}
